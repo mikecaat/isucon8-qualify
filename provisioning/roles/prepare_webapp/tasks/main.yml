@@ -119,10 +119,10 @@
   shell: |
     bash -lc "sh setup.sh"
 
-- name: Install for torb.ruby
-  become: yes
-  become_user: isucon
-  args:
-    chdir: /home/isucon/torb/webapp/ruby
-  shell: |
-    bash -lc "bundle install --path=.bundle"
+    #- name: Install for torb.ruby
+    #  become: yes
+    #  become_user: isucon
+    #  args:
+    #    chdir: /home/isucon/torb/webapp/ruby
+    #  shell: |
+    #    bash -lc "bundle install --path=.bundle"
